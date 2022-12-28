@@ -27,10 +27,7 @@ var removeDuplicates = function(nums) {
     
         for (var i = 0; i < nums.length; i++){
             if(nums[i] === nums[i+1]){
-                console.log("tt1",i,nums[i]);
                 nums.splice(i, 1);
-                console.log("tt2",i,nums[i]);
-    
                 i--;
             }
         }

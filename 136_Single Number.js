@@ -21,3 +21,10 @@ var singleNumber = function(nums) {
     }
     return unique; //Runtime ->357 ms
 };
+
+
+
+
+// Method 2
+let  unique = nums.filter((v, i) => nums.indexOf(v) === nums.lastIndexOf(v));
+   return unique;

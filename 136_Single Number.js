@@ -28,6 +28,6 @@ var singleNumber = function(nums) {
     return nums.reduce((acc, cur) => {
         console.log(acc,cur);
             return acc ^ cur;
-        }, 0) //Runtime327 ms
+        }, 0) //Runtime ->327 ms
         
 };
